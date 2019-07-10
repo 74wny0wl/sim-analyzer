@@ -37,4 +37,5 @@ def create_args_parser() -> argparse.ArgumentParser:
     args_parser.add_argument('--output', nargs='?', default=OUTPUT_FORMAT_DEFAULT,
                              help='select output [{}, {}, {}]'.format(OUTPUT_FORMAT_DEFAULT, OUTPUT_FORMAT_JSON,
                                                                       OUTPUT_FORMAT_CSV))
+    args_parser.add_argument('--version', action='version', version='%(prog)s 1.0.0')
     return args_parser

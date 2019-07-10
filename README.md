@@ -1,4 +1,4 @@
-# sim-analyzer
+# sim-analyzer 1.0.0
 Tool to data recovery from sim cards dumps
 
 ## Usage:
@@ -20,6 +20,10 @@ optional arguments:
 ### Help
 Show help message and exit<br />
 Command: ```simanalysis.py --help```
+
+### Version
+Print current version
+Command: ```simanalysis.py --version```
 
 ### Directory tree
 Print contents of sim dump in a tree-like format<br />
